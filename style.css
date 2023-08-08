@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background: #9BF3F0;
+    height: 6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+header a:hover {
+    background-color: #DAFFED;
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+nav { 
+    display: flex;
+    gap: 10rem;
+}
